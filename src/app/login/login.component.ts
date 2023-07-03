@@ -56,8 +56,8 @@ export class LoginComponent {
           this.matdialog.closeAll();
         }
         else if (admin) {
-          this.cookieService.set('admin', "admin")
-          this.route.navigate(['/seller-home'])
+          this.cookieService.set('admin',  JSON.stringify({ id: admin.id, username: admin.username }))
+          this.route.navigate(['/seller-home']);
         }
         else {
           this.err = true;

@@ -64,7 +64,7 @@
 /* catagory */
 .category-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 50px;
 }
 
@@ -75,6 +75,7 @@
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  width: calc(30% - 10px);
 }
 
 .category-card:hover {
@@ -92,6 +93,7 @@
   font-size: 24px;
   font-weight: bold;
   margin: 10px 0;
+  color: #FF3300;
 }
 
 .category-description {
@@ -105,14 +107,14 @@
   font-size: 16px;
   font-weight: bold;
   color: #fff;
-  background-color: #000;
+  background-color: #FF3300;
   border-radius: 5px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .category-button:hover {
-  background-color: #333;
+  background-color: #FF9900;
 }
 
 
@@ -121,23 +123,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 300px;
   height: 470px;
   padding: 20px;
   background-color: #fff;
+  color: #FF3300;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
-  width: calc(25% - 10px);
+  width: calc(21% - 10px);
   margin-bottom: 20px;
 }
 
 .card-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card:hover {
@@ -153,14 +156,14 @@
 }
 
 .card h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .card p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #666;
   margin-bottom: 20px;
@@ -168,20 +171,21 @@
 }
 
 .card button {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #000;
+  background-color: #FF3300;
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-size: 1.1rem;
 }
 
 .card button:hover {
-  background-color: #333;
+  background-color: #FF9900;
 }
 /* product overview text */
 .product-overview {
@@ -189,6 +193,7 @@
   font-size: 2rem;
   margin-top: 4rem;
   margin-bottom: 2rem;
+  color: #FF3300;
 }
 
 /* load more text */
@@ -200,7 +205,7 @@ margin-bottom: 80px;
 }
 
 .load-more button {
-background-color: #000;
+background-color: #FF3300;
 color: #fff;
 border: none;
 padding: 15px 30px;
@@ -214,7 +219,7 @@ transition: all 0.3s ease;
 }
 
 .load-more button:hover {
-background-color: #fff;
+background-color: #FF9900;
 color: #000;
 }
 
@@ -242,6 +247,7 @@ footer {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #FF3300;
 }
 
 ul {
